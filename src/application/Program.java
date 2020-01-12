@@ -13,9 +13,10 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         Account account;
 
+        System.out.println("Bom dia");
         System.out.print("Enter account number: ");
         int number = sc.nextInt();
-
+        
         System.out.print("Enter account holder: ");
         sc.nextLine();
         String holder = sc.nextLine();
